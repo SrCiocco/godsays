@@ -9,10 +9,11 @@ sudo pacman -S --needed gcc make
 ```
 Then, we do the following
 ```bash
-cd
-mkdir godsays
-cd godsays
+cd	# This is for going to your home, you can change that if you want
+mkdir godsays-repo	# the name of the directory to clone this repo 
+cd godsays-repo
 git clone https://github.com/SrCiocco/godsays.git
+cd godsays
 make
 
 ```

@@ -1,4 +1,4 @@
-#include "include/cwords.h"
+#include "cwords.h"
 
 int count_words(char array[])
 {

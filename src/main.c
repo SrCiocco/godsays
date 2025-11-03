@@ -3,7 +3,7 @@
 #include <unistd.h> /* getpid */
 #include <string.h> /* strtok */
 
-#include "include/cwords.h" /* count_words */
+#include "cwords.h" /* count_words */
 
 void tokenize_words(char words[], char* godMessage[]);
 void print_random(char* godMessage[], int wordsCounter);

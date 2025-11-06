@@ -20,8 +20,9 @@ make
 Once you do that, you can run the program going to "build/"
 ```bash
 cd build
-./godsays
+./godsays en # you can change the language. Available ones are: <en> | <es>
 ```
-## Things that i plan to do:
-- [ ] Read words from a file instead of an array.
+## What so far?
+- [x] Read words from a file instead of an array.
+- [ ] Play music while the program runs.
 - ...
